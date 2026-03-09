@@ -2,20 +2,62 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Berikut versi MITA yang saat ini masih mendapatkan dukungan keamanan.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version      | Supported  |
+| ------------ | ---------- |
+| V11          | ✅ Yes      |
+| V10          | ⚠️ Limited |
+| V9 and below | ❌ No       |
+
+Versi terbaru dari MITA selalu direkomendasikan untuk digunakan agar mendapatkan perbaikan bug dan keamanan terbaru.
+
+---
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Jika Anda menemukan kerentanan keamanan (security vulnerability) pada proyek MITA, harap **jangan langsung mempublikasikannya secara terbuka**.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Sebagai gantinya, silakan laporkan secara langsung kepada developer melalui:
+
+* GitHub Issues (dengan label security)
+* Email developer (jika tersedia)
+
+Informasi yang sebaiknya disertakan dalam laporan:
+
+* Deskripsi kerentanan
+* Langkah untuk mereproduksi bug
+* Versi MITA yang digunakan
+* Screenshot atau log error (jika ada)
+
+Setelah laporan diterima, developer akan:
+
+1. Meninjau laporan tersebut
+2. Mengonfirmasi apakah itu merupakan bug keamanan
+3. Mengembangkan perbaikan jika diperlukan
+4. Merilis update untuk memperbaiki masalah tersebut
+
+---
+
+## Security Best Practices
+
+Beberapa praktik keamanan yang disarankan saat menggunakan MITA:
+
+* Selalu gunakan versi MITA terbaru
+* Jangan menjalankan kode dari sumber yang tidak terpercaya
+* Pastikan library yang digunakan selalu diperbarui
+* Periksa permission microphone pada sistem
+
+---
+
+## Responsible Disclosure
+
+Kami menghargai laporan keamanan yang bertanggung jawab.
+Developer MITA akan berusaha memperbaiki masalah keamanan secepat mungkin setelah laporan diterima.
+
+Terima kasih telah membantu meningkatkan keamanan proyek MITA AI.
+
+---
+
+MITA AI
+Copyright © 2026 Rifqi
